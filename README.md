@@ -1,7 +1,6 @@
 # Ember-networker
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+App to track people you meet at events and play around with ember.
 
 ## Prerequisites
 
@@ -29,6 +28,15 @@ You will need the following things properly installed on your computer.
 
 Make use of the many generators for code, try `ember help generate` for more details
 
+Generate a new route with
+
+`ember generate route people`
+
+to remove the files just generated use the command
+
+`ember destroy route people`
+
+
 ### Running Tests
 
 * `ember test`
@@ -43,6 +51,11 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 Specify what it takes to deploy your app.
 
+### Todo
+
+- Add People component with details on how you met them, what they do and any other interesting info
+- Create association between people and events. People you meet will be grouped the event that you met them at
+
 ## Further Reading / Useful Links
 
 * [ember.js](http://emberjs.com/)
@@ -50,4 +63,4 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+* [Undoing ember generate](https://github.com/ember-cli/ember-cli/pull/1547)
